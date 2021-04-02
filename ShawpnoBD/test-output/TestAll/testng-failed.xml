@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestAnnotation(failed)">
+    <classes>
+      <class name="com.selenium.demo.LoginModule">
+        <methods>
+          <include name="login"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.selenium.demo.LoginModule -->
+    </classes>
+  </test> <!-- TestAnnotation(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
