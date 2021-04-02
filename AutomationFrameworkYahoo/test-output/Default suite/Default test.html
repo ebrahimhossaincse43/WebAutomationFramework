@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 02 11:02:48 BDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28102 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.TestCase.Login_Yahoo.loginYahoo()'><b>loginYahoo</b><br>Test class: com.TestCase.Login_Yahoo<br/>
+<a href="#Output-1443335402" onClick='toggleBox("Output-1443335402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1443335402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1443335402">
+clickeble locator found By.xpath: //input[@id='login-username']<br/>
+clickeble locator found By.xpath: //input[@id='login-signin']<br/>
+clickeble locator found By.xpath: //input[@id='login-passwd']<br/>
+clickeble locator found By.xpath: //button[@id='login-signin']<br/>
+clickeble locator found By.xpath: //a[@data-test-id='compose-button']<br/>
+clickeble locator found By.xpath: //input[@id='message-to-field']<br/>
+clickeble locator found By.xpath: //input[contains(@data-test-id,'compose-subject')]<br/>
+clickeble locator found By.xpath: //div[@data-test-id='rte']<br/>
+clickeble locator found By.xpath: //button[@data-test-id='compose-send-button']<br/>
+<img src = "file://E:\JAVA PROJECT\STS\AutomationFrameworkYahoo\ScreenShot\Yahoo-login-20210402_110313.png" alt = ""/><br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.TestCase.Login_Yahoo@55a147cc</td></tr>
+</table><p>
+</body>
+</html>

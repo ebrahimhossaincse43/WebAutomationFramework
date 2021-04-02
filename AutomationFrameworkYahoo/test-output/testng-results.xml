@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //input[@id='login-username']]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //input[@id='login-signin']]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //input[@id='login-passwd']]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //button[@id='login-signin']]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //a[@data-test-id='compose-button']]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //input[@id='message-to-field']]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //input[contains(@data-test-id,'compose-subject')]]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //div[@data-test-id='rte']]]>
+    </line>
+    <line>
+      <![CDATA[clickeble locator found By.xpath: //button[@data-test-id='compose-send-button']]]>
+    </line>
+    <line>
+      <![CDATA[<img src = "file://E:\JAVA PROJECT\STS\AutomationFrameworkYahoo\ScreenShot\Yahoo-login-20210402_110313.png" alt = ""/>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-02T11:02:48 BDT" name="Default suite" finished-at="2021-04-02T11:03:16 BDT" duration-ms="28102">
+    <groups>
+    </groups>
+    <test started-at="2021-04-02T11:02:48 BDT" name="Default test" finished-at="2021-04-02T11:03:16 BDT" duration-ms="28102">
+      <class name="com.TestCase.Login_Yahoo">
+        <test-method is-config="true" signature="initiateDriver()[pri:0, instance:com.TestCase.Login_Yahoo@55a147cc]" started-at="2021-04-02T11:02:48 BDT" name="initiateDriver" finished-at="2021-04-02T11:02:56 BDT" duration-ms="8668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method signature="loginYahoo()[pri:0, instance:com.TestCase.Login_Yahoo@55a147cc]" started-at="2021-04-02T11:02:56 BDT" name="loginYahoo" finished-at="2021-04-02T11:03:13 BDT" duration-ms="16764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //input[@id='login-username']]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //input[@id='login-signin']]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //input[@id='login-passwd']]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //button[@id='login-signin']]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //a[@data-test-id='compose-button']]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //input[@id='message-to-field']]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //input[contains(@data-test-id,'compose-subject')]]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //div[@data-test-id='rte']]]>
+            </line>
+            <line>
+              <![CDATA[clickeble locator found By.xpath: //button[@data-test-id='compose-send-button']]]>
+            </line>
+            <line>
+              <![CDATA[<img src = "file://E:\JAVA PROJECT\STS\AutomationFrameworkYahoo\ScreenShot\Yahoo-login-20210402_110313.png" alt = ""/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginYahoo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.TestCase.Login_Yahoo@55a147cc]" started-at="2021-04-02T11:03:13 BDT" name="closeBrowser" finished-at="2021-04-02T11:03:16 BDT" duration-ms="2598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestCase.Login_Yahoo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
